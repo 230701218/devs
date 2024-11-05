@@ -1,0 +1,146 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonts and Colors */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #141E30, #243B55);
+    color: #FFFFFF;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    background-color: #1F1B24;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    font-size: 48px;
+    font-weight: 900;
+    color: #E63946;
+}
+
+nav a {
+    color: #FFFFFF;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 300;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #F1FAEE;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #FF758C, #FF7EB3);
+    color: #FFFFFF;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+
+
+/* Events section with coffee background */
+.events {
+    padding: 30px 20px;
+    text-align: center;
+    background-image: url('path/to/coffee-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.events h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #F4A261;
+}
+
+.events ul {
+    list-style-type: none;
+}
+
+.events li {
+    font-size: 18px;
+    padding: 10px 0;
+    color: #FFFFFF;
+}
+
+.team {
+    color: #F4A261;
+    font-weight: bold;
+}
+
+.faq {
+    padding: 30px 20px;
+    background: linear-gradient(135deg, #1E90FF, #00BFFF);
+    text-align: center;
+}
+
+.faq h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.faq-item {
+    margin-bottom: 10px;
+}
+
+.faq-item button {
+    background-color: #F4A261;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.faq-item button:hover {
+    background-color: #FF7043;
+}
+
+footer {
+    background-color: #242424;
+    color: #999999;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #E63946;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #FFFFFF;
+}
+
+footer .developer {
+    color: #E63946;
+}
+
